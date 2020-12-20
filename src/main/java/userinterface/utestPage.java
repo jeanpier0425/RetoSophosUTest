@@ -16,6 +16,7 @@ public class utestPage {
     public static final Target CITY  = Target.the("campo ciudad").located(By.xpath("//input[@id='city']"));
     public static final Target CODE  = Target.the("campo code").located(By.xpath("//input[@id='zip']"));
     public static final Target NEXT_STEP2  = Target.the("boton next step 2").located(By.xpath("//span[text()='Next: Devices']"));
+    public static final Target NEXT_STEP3  = Target.the("boton next step 3").located(By.xpath("//span[text()='Next: Last Step']"));
 
 
 }

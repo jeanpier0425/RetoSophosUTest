@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e52607-56e8-40cc-aa96-562c32680c1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/task/IngresarCiudad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/task/abrirpagina.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/task/abrirpagina.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/userinterface/utestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/userinterface/utestPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/test/web/runners/testingrunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/test/web/stepdefinitions/testingStepDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/features/testing.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task/IngresarCiudad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/IngresarDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task/abrirpagina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/abrirpagina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/IngresarDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/IngresarDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/web/runners/testingrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/web/runners/registroutestrunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/testingStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/registroutestStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/testing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/registroutest.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,7 +26,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.531514">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.1">
+        <splitter split-orientation="vertical" split-proportion="0.37602627">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
@@ -79,8 +66,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/utestPage.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="9">
-                      <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+                    <state relative-caret-position="101">
+                      <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
                     </state>
                   </provider>
                 </entry>
@@ -110,8 +97,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/task/IngresarDatos.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="487">
-                      <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+                    <state relative-caret-position="292">
+                      <caret line="37" selection-start-line="37" selection-end-line="37" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -137,8 +124,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="29" />
+                <state relative-caret-position="240">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -165,7 +152,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/task/UtestTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/task/PasoDatosPersonales.java" />
-        <option value="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task/IngresarCiudad.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/testing.feature" />
         <option value="$PROJECT_DIR$/src/main/java/task/abrirpagina.java" />
@@ -173,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/test/java/test/web/runners/registroutestrunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java" />
         <option value="$PROJECT_DIR$/src/main/java/task/IngresarDatos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" />
       </list>
     </option>
   </component>
@@ -349,9 +336,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testingrunner - 2020.12.19 at 17h 59m 43s.xml">
-      <configuration name="testingrunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testingrunner - 2020.12.19 at 18h 41m 31s.xml">
       <configuration name="testingrunner" configurationId="JUnit" />
     </history-entry>
@@ -379,12 +363,15 @@
     <history-entry file="registroutestrunner - 2020.12.19 at 21h 04m 46s.xml">
       <configuration name="registroutestrunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="registroutestrunner - 2020.12.19 at 21h 08m 02s.xml">
+      <configuration name="registroutestrunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-208" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +380,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18309858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34019503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/utestPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/registroutest.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -490,8 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -500,11 +480,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task/IngresarDatos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="292">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/utestPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
         </state>
       </provider>
     </entry>

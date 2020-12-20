@@ -33,13 +33,9 @@ public class IngresarDatos implements Task {
 
         actor.attemptsTo(
                 Enter.theValue(postalcode).into(CODE),
-                Click.on(NEXT_STEP2)
+                Click.on(NEXT_STEP2),
+                Click.on(NEXT_STEP3)
         );
-        try {
-            Thread.sleep(7000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
     }
 
