@@ -5,10 +5,7 @@ import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import task.IngresarDatos;
-import task.PasoDatosPersonales;
-import task.UtestTask;
-import task.abrirpagina;
+import task.*;
 
 import java.util.List;
 import java.util.Map;
@@ -16,20 +13,20 @@ import java.util.Map;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
-public class registroutestStepDefinition {
+public class RegistroutestStepDefinition {
 
     @Before
     public void PrepararEscenario() {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Dado("^abro la pagina$")
+    @Dado("^el usuario abre la pagina$")
     public void abroLaPagina() {
-        theActorCalled("user").wasAbleTo(abrirpagina.conlaUrl());
+        theActorCalled("user").wasAbleTo(Abrirpagina.conlaUrl());
     }
 
 
-    @Cuando("^me quiero registrar con los datos personales$")
+    @Cuando("^el usuario quiere registrar sus datos personales$")
     public void meQuieroRegistrar(List<Map<String,String>> data) {
         theActorInTheSpotlight().attemptsTo(
                 UtestTask.join(),
@@ -37,10 +34,17 @@ public class registroutestStepDefinition {
         );
     }
 
-    @Cuando("^Adiciono mi ciudad de destino (.*) y el codigo postal (.*)$")
-    public void ingresociudad(String city,String postalcode) {
+    @Cuando("^el usuario adiciona los datos de su direccion como ciudad (.*) codigo postal (.*)$")
+    public void adicionoMiCiudadDeDestinoYElCodigoPostal(String city,String postalcode) {
         theActorInTheSpotlight().attemptsTo(
                 IngresarDatos.sobreLaDireccion(city,postalcode)
+        );
+    }
+
+    @Cuando("^el usuario establece un password (.*) para la cuenta$")
+    public void elUsuarioEstableceUnPassword(String pass) {
+        theActorInTheSpotlight().attemptsTo(
+                Establezco.elPassword(pass)
         );
     }
 }

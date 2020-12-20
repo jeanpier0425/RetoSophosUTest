@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static userinterface.utestPage.JOIN_TODAY;
+import static userinterface.UtestPage.JOIN_TODAY;
 
 public class UtestTask implements Task {
 

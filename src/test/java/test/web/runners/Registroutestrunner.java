@@ -12,5 +12,5 @@ import org.junit.runner.RunWith;
         glue = {"test.web.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
-public class registroutestrunner {
+public class Registroutestrunner {
 }

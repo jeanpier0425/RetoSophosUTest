@@ -1,6 +1,5 @@
 package task;
 
-import interactions.UsuarioElige;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -10,7 +9,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-import static userinterface.utestPage.*;
+import static userinterface.UtestPage.*;
 
 public class IngresarDatos implements Task {
 

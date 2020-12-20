@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 
-public class abrirpagina implements Task {
+public class Abrirpagina implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -14,7 +14,7 @@ public class abrirpagina implements Task {
         );
     }
 
-    public static abrirpagina conlaUrl(){
-        return Tasks.instrumented(abrirpagina.class);
+    public static Abrirpagina conlaUrl(){
+        return Tasks.instrumented(Abrirpagina.class);
     }
 }

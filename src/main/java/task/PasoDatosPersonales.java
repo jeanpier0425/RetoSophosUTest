@@ -10,7 +10,7 @@ import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import java.util.List;
 import java.util.Map;
 
-import static userinterface.utestPage.*;
+import static userinterface.UtestPage.*;
 
 public class PasoDatosPersonales implements Task {
 
