@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/testing.feature"},
+        features = {"src/test/resources/features/registroutest.feature"},
         glue = {"test.web.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
-public class testingrunner {
+public class registroutestrunner {
 }

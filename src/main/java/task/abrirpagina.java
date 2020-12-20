@@ -7,8 +7,6 @@ import net.serenitybdd.screenplay.actions.Open;
 
 public class abrirpagina implements Task {
 
-
-
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

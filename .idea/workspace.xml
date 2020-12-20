@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4e52607-56e8-40cc-aa96-562c32680c1a" name="Default Changelist" comment="" />
+    <list default="true" id="b4e52607-56e8-40cc-aa96-562c32680c1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/task/IngresarCiudad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/task/abrirpagina.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/task/abrirpagina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/userinterface/utestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/userinterface/utestPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/test/web/runners/testingrunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/test/web/stepdefinitions/testingStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/testing.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/IngresarCiudad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/IngresarDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/abrirpagina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/abrirpagina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/web/runners/testingrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/web/runners/registroutestrunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/testingStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/registroutestStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/testing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/registroutest.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,16 +37,16 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5448228">
+    <splitter split-orientation="horizontal" split-proportion="0.531514">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.3501805">
+        <splitter split-orientation="vertical" split-proportion="0.1">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/test/java/test/web/runners/testingrunner.java">
+                <entry file="file://$PROJECT_DIR$/src/test/java/test/web/runners/registroutestrunner.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="260">
-                      <caret line="16" selection-start-line="16" selection-end-line="16" />
+                    <state relative-caret-position="72">
+                      <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="62" />
                     </state>
                   </provider>
                 </entry>
@@ -38,8 +54,8 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/main/java/task/abrirpagina.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="160">
-                      <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="48" />
+                    <state relative-caret-position="80">
+                      <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
                       <folding>
                         <element signature="e#436#437#0" expanded="true" />
                         <element signature="e#496#497#0" expanded="true" />
@@ -51,12 +67,10 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/main/java/task/PasoDatosPersonales.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="57">
+                    <state relative-caret-position="480">
                       <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
                       <folding>
                         <element signature="imports" expanded="true" />
-                        <element signature="e#308#309#0" expanded="true" />
-                        <element signature="e#350#351#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -65,14 +79,14 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/utestPage.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="37">
-                      <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="112" />
+                    <state relative-caret-position="9">
+                      <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/test/resources/features/testing.feature">
+                <entry file="file://$PROJECT_DIR$/src/test/resources/features/registroutest.feature">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="120">
                       <caret line="6" column="55" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="55" />
@@ -83,29 +97,23 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/testingStepDefinition.java">
+                <entry file="file://$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/registroutestStepDefinition.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="143">
-                      <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-                      <folding>
-                        <element signature="e#725#726#0" expanded="true" />
-                        <element signature="e#797#798#0" expanded="true" />
-                      </folding>
+                    <state relative-caret-position="250">
+                      <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/java/task/IngresarCiudad.java">
+                <entry file="file://$PROJECT_DIR$/src/main/java/task/IngresarDatos.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="129">
-                      <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+                    <state relative-caret-position="487">
+                      <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
                       <folding>
                         <element signature="imports" expanded="true" />
-                        <element signature="e#328#329#0" expanded="true" />
-                        <element signature="e#355#356#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -116,12 +124,24 @@
         </splitter>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/resources/features/testing.feature">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/features/registroutest.feature">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                  <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -144,11 +164,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/task/UtestTask.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/testing.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task/PasoDatosPersonales.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/testingStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/userinterface/utestPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task/IngresarCiudad.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/testing.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/task/abrirpagina.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/testingStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/web/runners/registroutestrunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task/IngresarDatos.java" />
       </list>
     </option>
   </component>
@@ -164,9 +188,107 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="userinterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebaretosophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pruebaretosophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +314,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="testingrunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="registroutestrunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebaretosophos.test" />
       <extension name="coverage">
         <pattern>
@@ -201,7 +323,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.web.runners" />
-      <option name="MAIN_CLASS_NAME" value="test.web.runners.testingrunner" />
+      <option name="MAIN_CLASS_NAME" value="test.web.runners.registroutestrunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,7 +331,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testingrunner" />
+        <item itemvalue="JUnit.registroutestrunner" />
       </list>
     </recent_temporary>
   </component>
@@ -227,15 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testingrunner - 2020.12.18 at 21h 30m 47s.xml">
-      <configuration name="testingrunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testingrunner - 2020.12.18 at 21h 35m 38s.xml">
-      <configuration name="testingrunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testingrunner - 2020.12.19 at 11h 02m 16s.xml">
-      <configuration name="testingrunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testingrunner - 2020.12.19 at 17h 59m 43s.xml">
       <configuration name="testingrunner" configurationId="JUnit" />
     </history-entry>
@@ -248,11 +361,30 @@
     <history-entry file="testingrunner - 2020.12.19 at 19h 06m 08s.xml">
       <configuration name="testingrunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="registroutestrunner - 2020.12.19 at 20h 50m 55s.xml">
+      <configuration name="registroutestrunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="registroutestrunner - 2020.12.19 at 20h 53m 05s.xml">
+      <configuration name="registroutestrunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="registroutestrunner - 2020.12.19 at 21h 00m 00s.xml">
+      <configuration name="registroutestrunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="registroutestrunner - 2020.12.19 at 21h 01m 23s.xml">
+      <configuration name="registroutestrunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="registroutestrunner - 2020.12.19 at 21h 03m 13s.xml">
+      <configuration name="registroutestrunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="registroutestrunner - 2020.12.19 at 21h 04m 46s.xml">
+      <configuration name="registroutestrunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-208" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23294243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,8 +392,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22751896" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18309858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,10 +432,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task/PasoDatosPersonales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task/abrirpagina.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="80">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="e#436#437#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
@@ -311,58 +460,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/web/runners/testingrunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/registroutestStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="250">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/testing.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/web/runners/registroutestrunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/utestPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/registroutest.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/web/stepdefinitions/testingStepDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interactions/UsuarioElige.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="480">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task/PasoDatosPersonales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task/IngresarDatos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="487">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/utestPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task/IngresarCiudad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
           </folding>
         </state>
       </provider>

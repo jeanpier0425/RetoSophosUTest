@@ -5,7 +5,7 @@ import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import task.IngresarCiudad;
+import task.IngresarDatos;
 import task.PasoDatosPersonales;
 import task.UtestTask;
 import task.abrirpagina;
@@ -16,7 +16,7 @@ import java.util.Map;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
-public class testingStepDefinition {
+public class registroutestStepDefinition {
 
     @Before
     public void PrepararEscenario() {
@@ -31,19 +31,16 @@ public class testingStepDefinition {
 
     @Cuando("^me quiero registrar con los datos personales$")
     public void meQuieroRegistrar(List<Map<String,String>> data) {
-        theActorInTheSpotlight().attemptsTo(UtestTask.join(),
+        theActorInTheSpotlight().attemptsTo(
+                UtestTask.join(),
                 PasoDatosPersonales.alFormulario(data)
         );
     }
 
-    @Cuando("^Adiciono mi ciudad de destino (.*)$")
-    public void ingresociudad(String city) {
+    @Cuando("^Adiciono mi ciudad de destino (.*) y el codigo postal (.*)$")
+    public void ingresociudad(String city,String postalcode) {
         theActorInTheSpotlight().attemptsTo(
-                IngresarCiudad.enelCampo(city)
+                IngresarDatos.sobreLaDireccion(city,postalcode)
         );
     }
-
-
-
-
 }
